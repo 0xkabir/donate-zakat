@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(165, 20, 20);
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.top-banner{
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: left;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.959)), url(/donate-zakat/assets/top-banner.png);
+}
+
+.intro{
+    width: 500px;
+    height: 50%;
+    padding-top: 135px;
+    margin-left: 150px;
+}
+
+.intro p{
+    padding: 10px 0 30px 0px;
+}
+
+.explore-more{
+    width: 75%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.explore-more img{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+
+.explore {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore p{
+    padding: 20px 0 30px 0;
+}
+
+#first{
+    width: 493px;
+    height: 374px;
+    padding-right: 50px;
+}
+
+#second{
+    width: 482px;
+    height: 374px;
+}
+
+#second h2{
+    width: 60%;
+}
+
+.plans{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.plans>h2{
+    width: 50%;
+    margin: auto;
+}
+.plans>p{
+    width: 70%;
+    margin: 20px auto 30px;
+}
+
+.plan-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan{
+    width: 450px;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: rgb(248, 237, 239);
+    margin: 10px;
+    padding: 50px 0px;
+    border-radius: 5px;
+}
+.plan div{
+    width: 70%;
+}
