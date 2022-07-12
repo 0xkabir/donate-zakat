@@ -114,3 +114,82 @@ h2{
 .plan div{
     width: 70%;
 }
+
+.gallery{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img{
+    width: 364px;
+    height: 391px;
+    border-radius: 10px;
+}
+
+.spreading-love{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.spreading-love>h2{
+    width: 60%;
+    margin: auto;
+}
+
+.spreading-love>p{
+    width: 55%;
+    margin: 20px auto 30px;
+}
+
+.sharings{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share{
+    width: 364px;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.share img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: auto;
+}
+
+.zakat-text{
+    padding: 30px 20px;
+}
+
+.zakat-text p{
+    padding: 10px 0px 20px;
+    color: gray;
+}
+
+.zakat-text a{
+    color: rgb(165, 20, 20);
+    font-size: 20px;
+}
+
+footer{
+    height: 150px;
+    background-color: rgb(7, 10, 19);
+    color: white;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 35px 0px 20px 0px;
+    font-family: 'Lobster', cursive;
+    color: rgb(165, 20, 20);
+}
